@@ -24,13 +24,28 @@ To write a Python program to:
 7. **Print** each name on a new line.
 
 ---
-
 ## 💻  Program
+```
+N=int(input())
+students=[]
+for _ in range(N):
+    name = input()
+    score =float(input())
+    students.append([name,score])
+    
+scores = sorted(set(score for _, score in students))
+second_lowest_score=scores[1]
 
-Add Code Here
+second_lowest_students= sorted([name for name,score in students if score == second_lowest_score])
+
+for students in second_lowest_students:
+    print(students)
+```
 
 ## Output
+<img width="394" height="403" alt="image" src="https://github.com/user-attachments/assets/28ecf0f9-e12a-426c-a095-4d1becdc751b" />
 
 ## Result
+Thus, the output is verified successfully.
 
 
