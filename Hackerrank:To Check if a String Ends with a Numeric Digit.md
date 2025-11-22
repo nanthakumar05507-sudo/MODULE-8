@@ -23,8 +23,14 @@ To write a Python program that checks if a given string ends with a number using
 ---
 
 ## 💻  Program
-Add Code here
-
+```
+a=str(input())
+b=str(input())
+print(a+b)
+print(a*3)
+```
 ## Output
+<img width="464" height="189" alt="image" src="https://github.com/user-attachments/assets/223b2fa9-1e67-480b-a64f-c94ed3c8f877" />
 
 ## Result
+Thus the required output is got and verified.
